@@ -1,45 +1,29 @@
-.MainContainor{
+.MainDiv{
     display: flex;
+    justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
     width: 800px;
-    height: 90vh;
     margin: auto;
-    padding: 10px;
-    flex-direction: column;
+    height: auto;
+    padding: 20px;
 }
-.TabsContainer{
-    width: 98%;
+.UploadDiv{
+    
+    width: 700px;
+    height:200px;
+    border:2px dashed black;
+    border-radius:5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
+    flex-direction: column;
+    gap:20px;
+    background-color:azure;
+}
+.ListofDocumentsUpload{
+    width: 800px;
+    margin: auto;
+    margin-top:20px ;
 
 }
-.Tab{
-    border: 1px solid black ;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-.Tab:hover{
-    background-color:black;
-color:white
-    }
-
-    .Active{
-        background-color:black;
-        color:white
-        
-    }
-
-    .TabContent{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
-
-    }
