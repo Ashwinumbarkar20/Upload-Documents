@@ -1,0 +1,45 @@
+.MainContainor{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 800px;
+    height: 90vh;
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+}
+.TabsContainer{
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+}
+.Tab{
+    border: 1px solid black ;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.Tab:hover{
+    background-color:black;
+color:white
+    }
+
+    .Active{
+        background-color:black;
+        color:white
+        
+    }
+
+    .TabContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+
+    }
